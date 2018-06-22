@@ -195,3 +195,15 @@
     top: 13%;
     display: none;
 }
+.musicBtn{
+    position: absolute;
+    z-index: 5;
+    width: 10%;
+    top: 3%;
+    right: 3%;
+    animation: musicBtnRotate 3s linear 0s infinite normal;
+}
+@keyframes musicBtnRotate {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(-360deg);}
+}

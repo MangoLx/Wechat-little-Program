@@ -67,15 +67,20 @@ $(function () {
                    }
                }});
            console.log(nowPage);
-
        } 
     });
     $('.page1-Building').fadeIn(400,function () {
         $('.page1-Flight').animate({width : 80 + '%'},{duration : 1500});
     });
+    $('.musicBtn').click(function () {
+        var music = $('#music')[0];
 
-
-
-
-
+        if(music.paused){
+            music.play();
+            $(this).attr('src','img/musicBtn.png');
+        }else{
+            music.pause();
+            $(this).attr('src','img/musicBtnOff.png');
+        }
+    })
 });
