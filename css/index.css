@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    position: absolute;
+}
+
+.page{
+    position: relative;
+}
+.page img{
+    position: absolute;
+}
+
+.page1{
+    background-color: #00ccff;
+}
+
+.page1 .page1-Building{
+    width: 100%;
+    height: 20%;
+    bottom: 0;
+    display: none;
+}
+.page1 .page1-Elements{
+    width: 90%;
+    height: 100%;
+    animation: big 3s linear 0s infinite normal;
+}
+.page1 .page1-Cloud{
+    width: 90%;
+    height: 90%;
+    left: 4%;
+    top: 4%;
+    animation: big 5s linear 0s infinite normal;
+}
+.page1 .page1-Flight{
+    width: 0;
+    bottom: 25%;
+    left: 12%;
+    animation: big 2s linear 0s infinite normal;
+}
+.page1 .page1-Txt{
+    width: 60%;
+    left: 19%;
+    top: 10%;
+}
+.page1 .page1-Flowers01{
+    width: 20%;
+    left: 10%;
+    top: 10%;
+    z-index: 22;
+    animation: flower1 2s linear 0s infinite normal;
+}
+.page1 .page1-Flowers02{
+    width: 23%;
+    right: 19%;
+    top: 22%;
+    z-index: 20;
+    animation: flower2 2s linear 0s infinite normal;
+}
+.page1 .page1-Stars{
+    width: 100%;
+    left: 0;
+    top: 10%;
+}
+@keyframes flower1 {
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(30deg);}
+    50%{transform: rotate(0deg);}
+    75%{transform: rotate(-30deg);}
+    100%{transform: rotate(0deg);}
+}
+@keyframes flower2 {
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(-30deg);}
+    50%{transform: rotate(0deg);}
+    75%{transform: rotate(30deg);}
+    100%{transform: rotate(0deg);}
+}
+@keyframes big {
+    0%{transform: scale(1,1)}
+    50%{transform: scale(1.05,1.05)}
+    100%{transform: scale(1,1)}
+}
+
+.page2{
+    background-color: green;
+}
+.page2 .page2-Bg{
+    width: 100%;
+    height: 100%;
+}
+.page2 .page2-Farm{
+    width: 70%;
+    top: 30%;
+    left: 20%;
+    display: none;
+}
+.page2 .page2-IT{
+    width: 70%;
+    bottom: 32%;
+    left: 20%;
+    display: none;
+}
+.page2 .page2-Star{
+    width: 80%;
+}
+.page3{
+    background-color: blue;
+}
+.page3 .page3-Bg{
+    width: 100%;
+    height: 100%;
+}
+.page3 .page3-BusStation{
+    width: 100%;
+    bottom: 0;
+}
+.page3 .page3-bus{
+    width: 65%;
+    bottom: 9%;
+    left: 0;
+}
+.page3 .page3-BusAvatar{
+    width: 30%;
+    bottom: 16%;
+    right: 4%;
+    z-index: 3;
+}
+.page3 .page3-Title,.page3-BusTitle{
+    width: 40%;
+    display: none;
+}
+.page3 .page3-BusTitle{
+    width: 35%;
+    z-index: 2;
+    top: 10%;
+}
+.page3 .page3-Wall{
+    height: 70%;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+.page3 .page3-TeamAvatar{
+    width: 25%;
+    top: 18%;
+    right: 19%;
+    display: none;
+}
+.page3 .page3-Space{
+    width: 0;
+    top: 20%;
+    left: 3%;
+}
+.page3 .page3-WhereTxt{
+    width: 0;
+    bottom: 5%;
+    left: 11%;
+}
+.page4{
+    background-color: skyblue;
+}
+.page4 .page4-Bg{
+    width: 100%;
+    height: 100%;
+}
+.page4 .page4-lightOnBg{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.page4 .page4-lightOff{
+    width: 23%;
+    bottom: 9%;
+    left: 9%;
+}
+.page4 .page4-cornerTitle{
+    width: 40%;
+    right: 0;
+    top: 13%;
+}
+.page4 .page4-clickGuide{
+    width: 50%;
+    bottom: 53%;
+    left: 24%;
+    animation: big 1.5s linear 0s infinite normal;
+}
+.page4 .page4-footTx{
+    z-index: 3;
+    width: 64%;
+    left: 22%;
+    top: 13%;
+    display: none;
+}

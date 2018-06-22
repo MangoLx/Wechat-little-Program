@@ -1,0 +1,12 @@
+1.注册一个github账号
+
+2.打开文件所在目录
+ 输入： ssh -keygen -t rsa -C "MangoLx"
+ 生成公钥和私钥
+
+3.在项目文件夹下输入git init 初始化仓库
+
+4.git status 查看状态
+
+5.git add + 文件名
+    git add . 上传全部未上传
