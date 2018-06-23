@@ -14,3 +14,9 @@
 6. get commit -m "信息内容" 输入信息
 
 7.打开网页端github创建项目，添加工程，复制上传代码
+
+8.更新
+    git status
+    git add .
+    git commit -m ''
+    git push
